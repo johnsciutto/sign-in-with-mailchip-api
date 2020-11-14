@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+  <title>Newsletter Signup</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="front.js" defer></script>
+</head>
+
+<body class="text-center">
+  <form class="form-signin" method="POST" action="/">
+    <img class="mb-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72"
+      height="72">
+    <h1 class="h3 mb-3 font-weight-normal">Please sign up to my newsletter</h1>
+    <input type="text" name="fName" class="form-control top" placeholder="First Name" required autofocus>
+    <input type="text" name="lName" class="form-control middle" placeholder="Last Name" required>
+    <input type="email" name="email" class="form-control bottom" placeholder="Email" required>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Get the Newsletter</button>
+    <p class="mt-5 mb-3 text-muted">&copy; <span id="copyright"></span></p>
+  </form>
+</body>
+
+</html>
